@@ -13,7 +13,7 @@ function fun1() {
 }
 function fun2() {
     let b = document.getElementById('entry1');
-    let i = document.getElementById('inp3');
+    let i = document.getElementById('klamka');
     let res = 0;
     if (b.checked) {
         res = 1;
