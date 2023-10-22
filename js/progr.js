@@ -1528,5 +1528,33 @@ function dol_Er_2(width) {
     }
 }
 
+let btn = document.getElementById('kl')
+let klamka = document.getElementById('klamka')
+let info = document.querySelector('.height')
+let mykl = document.querySelectorAll('.mykl')
+let is_menu = true
 
+
+
+btn.addEventListener('click', function(){
+    if(is_menu){
+        info.style.display = 'block'
+        is_menu = false
+    
+        for (let index = 0; index < mykl.length; index++) {
+            const element = mykl[index];
+            element.addEventListener('click', function(){
+                klamka.innerText = element.innerHTML
+                info.style.display = 'none'
+                
+            })
+            is_menu = true
+        }
+    }
+    else{
+        info.style.display = 'none'
+        is_menu = true
+    }
+    
+})
 
