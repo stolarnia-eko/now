@@ -18,10 +18,12 @@ function fun2() {
     if (b.checked) {
         res = 1;
         i.style.display = 'none';
+        info.style.display = 'none'
     }
     else {
         res = 0;
         i.style.display = 'block';
+        
     }
     return res;
 }
