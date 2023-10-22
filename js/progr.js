@@ -196,7 +196,7 @@ function click_button_Standart(params) {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('klamka').value;
+    let klamka = document.getElementById('klamka').textContent;
 
 
     //jednoskrzydlowka rozwierne
@@ -434,6 +434,7 @@ function zasuwnica(height, klamka) {
 
     }
     else if (height > 2000 && height <= 2600 && klamka == 1020) {
+        
         if (res1 == 1 && res3 == 1) {
             document.getElementById('x-r-zas').innerText = '700 1370 1770';
             document.getElementById('x-r-nsp').innerText = '1121';
@@ -763,7 +764,7 @@ function click_button_ER_1() {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('klamka').value;
+    let klamka = document.getElementById('klamka').textContent;
 
 
     //jednoskrzydlowka rozwierne
@@ -1076,7 +1077,7 @@ function click_button_ER_2(params) {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('klamka').value;
+    let klamka = document.getElementById('klamka').textContent;
 
 
     //jednoskrzydlowka rozwierne
