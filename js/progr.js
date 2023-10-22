@@ -196,7 +196,7 @@ function click_button_Standart(params) {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('inp3').value;
+    let klamka = document.getElementById('klamka').value;
 
 
     //jednoskrzydlowka rozwierne
@@ -763,7 +763,7 @@ function click_button_ER_1() {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('inp3').value;
+    let klamka = document.getElementById('klamka').value;
 
 
     //jednoskrzydlowka rozwierne
@@ -1076,7 +1076,7 @@ function click_button_ER_2(params) {
 
     let width = document.getElementById('inp1').value;
     let height = document.getElementById('inp2').value;
-    let klamka = document.getElementById('inp3').value;
+    let klamka = document.getElementById('klamka').value;
 
 
     //jednoskrzydlowka rozwierne
