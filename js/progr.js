@@ -200,7 +200,7 @@ function click_button_Standart(params) {
     let height = document.getElementById('inp2').value;
     let klamka = document.getElementById('klamka').textContent;
 
-
+    
     //jednoskrzydlowka rozwierne
     if (res1 == 1 && res2 == 0 && res3 == 1 && res4 == 0) {
         if (width !== '' && height !== '' && klamka !== '') {
