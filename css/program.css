@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'MyFontLink';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+}
+
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -112,6 +117,19 @@ input{
 .kr-zaw{
     margin: 20px 0;
     padding: 10px 20px;
+}
+/* calculator */
+.title-calc{
+    margin-top: 20px;
+    font-family: 'MyFontLink';
+    text-align: center;
+    font-size: 30px;
+}
+.calc{
+    max-width: 400px;
+    margin: 0 auto;
+    border-style: solid;
+    height: 500px;
 }
 @media(max-width: 800px){
     .box-right{
