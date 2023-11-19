@@ -6,3 +6,6 @@ function add_digit(digit){
     }
     res_calc.innerText += digit
 }
+function add_operation(operation){
+    res_calc.innerText += operation
+}
