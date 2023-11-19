@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/Inter-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MyFontLink';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::after, ::before{
+    box-sizing: inherit;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #171717;
+    font-family: 'MyFontLink', sans-serif;
+
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list-menu{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: rgb(250, 250, 17);
+    text-align: center;
+    padding: 5px;
+}
