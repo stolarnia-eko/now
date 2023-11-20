@@ -7,5 +7,15 @@ function add_digit(digit){
     res_calc.innerText += digit
 }
 function add_operation(operation){
-    res_calc.innerText += operation
+   
+    
+}
+function delete_input(){
+    let res = document.querySelector('.calc-res').innerText
+    if (res.length == 1){
+        document.querySelector('.calc-res').innerText = '0';
+    }
+    else{
+        document.querySelector('.calc-res').innerText = res.slice(0, -1);
+    }
 }
