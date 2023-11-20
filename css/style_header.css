@@ -34,3 +34,8 @@ li{
     text-align: center;
     padding: 5px;
 }
+@media(max-width:720px){
+    a{
+        font-size: 15px;
+    }
+}
